@@ -10,8 +10,8 @@ Se utiliza en este proyecto una base de datos MySQL para almacenar los usuarios 
 El objetivo de este proyecto es crear una página web con funcionalidades y con una base de datos MySQL donde guardar los datos creados y los usuarios creados.
 
 ## 👁️ Vista previa del proyecto
-<img src="./img/preview.jpeg" width=1200>
-<img src="./img/preview2.jpeg" width=1200>
+<img src="static/img/preview.jpeg" width=1200>
+<img src="static/img/preview2.jpeg" width=1200>
 
 ## 🛠️ Estructura del Proyecto
 
@@ -115,8 +115,8 @@ This is a simple webpage without styles with various views and functionalities s
 The goal of this project is to create a webpage with functionalities and a MySQL database to store created data and users.
 
 ## 👁️ Project Preview
-<img src="img/preview.jpeg" width=1200> 
-<img src="img/preview2.jpeg" width=1200>
+<img src="static/img/preview.jpeg" width=1200> 
+<img src="static/img/preview2.jpeg" width=1200>
 
 ## 🛠️ Project Structure
 The project is organized into several folders and files to facilitate maintenance and expansion:
