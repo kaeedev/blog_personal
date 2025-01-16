@@ -1,0 +1,18 @@
+{% extends "layout_base.html" %}
+
+
+{% block head_title%}Pagina de Contacto{% endblock %}
+
+{% block page_content%}
+    <h1>Contacto</h1>
+    {% if success %}
+        <p>Se ha enviado el formulario correctamente</p>
+    {% else %}
+        <form action='' method='POST'>
+            {% csrf_token %}
+            <h2> Contactanos con el siguiente formulario</h2>
+            {{ form.as_p }}
+            <button>Enviar</button>
+        </form>
+    {% endif %}
+{% endblock %}

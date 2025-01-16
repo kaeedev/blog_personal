@@ -1,0 +1,19 @@
+
+{% extends "layout_base.html" %}
+
+
+{% block head_title%} {{ post.title }} {% endblock %}
+
+{% block page_content%}
+<article id="{{ post.slug }}">
+    <p>Fecha de publicacion: {{ post.created_at }}</p>
+    <h1> {{ post.title }}</h1>
+    {% if post.blog_image %}
+        <picture>
+            <img src="{{ post.blog_image.thumbnails.large.url }}">
+        </picture>
+        {% endif %}
+    <div> {{ post.content|safe }}</div>
+    <p><a href="{% url 'blog:post_list' %}">Volver a las noticias</a></p>
+</article>
+{% endblock %}
