@@ -10,8 +10,8 @@ Se utiliza en este proyecto una base de datos MySQL para almacenar los usuarios 
 El objetivo de este proyecto es crear una página web con funcionalidades y con una base de datos MySQL donde guardar los datos creados y los usuarios creados.
 
 ## 👁️ Vista previa del proyecto
-<img src="img/preview.jpeg" width=1200>
-<img src="img/preview2.jpeg" width=1200>
+<img src="./img/preview.jpeg" width=1200>
+<img src="./img/preview2.jpeg" width=1200>
 
 ## 🛠️ Estructura del Proyecto
 
