@@ -1,0 +1,3 @@
+[setup]
+# Lista de paquetes necesarios
+packages = ["gcc", "mariadb", "mysql", "pkg-config"]
