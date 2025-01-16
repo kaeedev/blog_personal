@@ -1,3 +1,0 @@
-[setup]
-# Paquetes necesarios para mysqlclient
-packages = ["gcc", "libmariadb-dev", "pkg-config"]
