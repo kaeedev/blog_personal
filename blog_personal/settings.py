@@ -90,11 +90,11 @@ WSGI_APPLICATION = 'blog_personal.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'blog_personaldb',
-        'USER': 'miusuario',
-        'PASSWORD': '123456aZT',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'NAME': 'railway',
+        'USER': 'root',
+        'PASSWORD': 'nzGTCGZaLRNsTtTrvEyDRDMprGdFyvtJ',
+        'HOST': 'junction.proxy.rlwy.net',
+        'PORT': '32660',
     }
 }
 
