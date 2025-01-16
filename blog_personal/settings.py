@@ -26,11 +26,9 @@ TEMPLATES_DIR = BASE_DIR / 'blog_personal' / 'templates'
 SECRET_KEY = 'django-insecure-x&qul52$nyb+*g%7ez_i^s$wvf7)j4@4k%bgsg!6^5z@ek03b)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['website-domain.com', '127.0.0.1']
-CSRF_TRUSTED_ORIGINS = ['https://website-domain.com', 'https://127.0.0.1']
-SECURE_CROSS_ORIGIN_OPENER_POLICY = 'same-origin-allow-popups'
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -92,11 +90,11 @@ WSGI_APPLICATION = 'blog_personal.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'railway',
-        'USER': 'root',
-        'PASSWORD': 'nzGTCGZaLRNsTtTrvEyDRDMprGdFyvtJ',
-        'HOST': 'junction.proxy.rlwy.net',
-        'PORT': '32660',
+        'NAME': 'blog_personaldb',
+        'USER': 'miusuario',
+        'PASSWORD': '123456aZT',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
 
