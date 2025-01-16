@@ -95,6 +95,10 @@ DATABASES = {
         'PASSWORD': '123456aZT',
         'HOST': 'localhost',
         'PORT': '3306',
+        'OPTIONS': {
+            'charset': 'utf8mb4',
+            'init_command': "SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'",
+        },
     }
 }
 
@@ -201,5 +205,9 @@ CKEDITOR_CONFIGS = {
         'filebrowserUploadUrl': '/ckeditor/upload/',  # URL para subir nuevas imágenes
         'height': 300,  # Ajusta la altura del editor
         'width': 'auto',  # Ajusta el ancho del editor
+        'forcePasteAsPlainText': True,  # Evita contenido HTML extraño
+        'entities': False,  # Desactiva conversión de caracteres especiales a entidades
+        'basicEntities': False,
+        'allowedContent': True,  # Permite todos los caracteres
     },
 }
